@@ -43,7 +43,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/400.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">Rogers</a></h1>
@@ -65,10 +65,6 @@
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -103,7 +99,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/400.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">Rogers</h1>
@@ -155,6 +151,85 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-Hexo最简单多机更新博文" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/17/Hexo最简单多机更新博文/">Hexo多机更新博文</a>
+    </h1>
+  
+
+        
+        <a href="/2016/03/17/Hexo最简单多机更新博文/" class="archive-article-date">
+  	<time datetime="2016-03-17T03:50:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-03-17</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="最简单多机更新Hexo"><a href="#最简单多机更新Hexo" class="headerlink" title="最简单多机更新Hexo"></a>最简单多机更新Hexo</h2><p>本文默认读者已经在一台电脑上<code>hexo</code>环境，并且已发布过博文以及将<code>hexo</code>目录同步到云盘。以下操作均在新电脑。</p>
+<p>step1：安装node.js</p>
+<p>step2：安装git for windows</p>
+<p>step3：配置git，配置环境变量，输入账号密码,并生成新的ssh</p>
+        
+          <a class="article-more-a" href="/2016/03/17/Hexo最简单多机更新博文/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2016/03/17/Hexo最简单多机更新博文/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-Hello World" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -288,25 +363,17 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -390,43 +457,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;br&gt;&lt;br&gt;一只快乐的胖子&lt;br&gt;</div>
   	  	
     	</section>
     
